@@ -47,6 +47,7 @@ DMN-Online-Prediction-Solver/
 ### 3. Input Configuration (`loading.yaml`)
 The most common user interaction is defining a custom loading history. You can edit the loading_points in `loading.yaml`. The solver automatically performs linear interpolation between these points based on the `--nLoad` count.
 
+```text
 Boundary:
   # Format: [Progress_Ratio (0.0 to 1.0), Load_Factor]
   loading_points:
@@ -54,4 +55,5 @@ Boundary:
     - [0.3, 0.5]  # Peak 1: Reach 0.5 factor at 30% of simulation
     - [0.6, 0.2]  # Unload: Drop to 0.2 factor at 60% of simulation
     - [1.0, 1.0]  # Final: Reach 1.0 factor at the end
+```
 
