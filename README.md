@@ -28,7 +28,7 @@ The solver is provided as a compiled executable (`DMN_Solver.exe`). You can run 
 
 DMN_Solver can be downloaded from https://drive.google.com/drive/folders/1s_tC3h3VD2n3XXccqObD5xx7lwWsWsrN?usp=sharing
 
-
+```text
 DMN-Online-Prediction-Solver/
 ├── DMN_Solver/DMN_Solver.exe # Main Executable
 ├── README.md                 # Instructions
@@ -40,7 +40,7 @@ DMN-Online-Prediction-Solver/
             ├── material_DMN.yaml                             # DMN Phase properties
             ├── Binary2_5_lr_0.1_batchsize_20_20241115_204415 # Trained DMN paramters
             └── mesh.k                                        # Mesh file (Viewable in LS-PREPOST)
----
+```
 
 ---
 
