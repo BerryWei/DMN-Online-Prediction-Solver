@@ -1,0 +1,7 @@
+# "./models/TwoPhase-SFC/Binary2_5_lr_0.1_batchsize_20_20231128_180638" 不大準
+MODEL: "DMN"
+MATPROP:
+  model_path: D:\compile\DNS\2d\demo\Binary2_5_lr_0.1_batchsize_20_20241115_204415
+  mat0: {'className':'ElastoPlasticity', 'params':{'elastic_modulus':100, 'tangent_modulus':5, 'poisson':0.3, 'Y0':0.1 , 'beta':0}}
+  mat1: {'className':'Elasticity', 'params':{'elastic_modulus':500, 'poisson':0.19}}
+  
